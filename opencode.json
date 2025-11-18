@@ -1,0 +1,14 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+      "brave-search": {
+        "type": "local",
+        "command": ["npx", "-y", "@modelcontextprotocol/server-brave-search"],
+        "enabled": true,
+        "environment": {
+          "BRAVE_API_KEY": "BSAIoJQKTEJg9WgqIjVnzfeLXUS_A2D"
+        }
+      }
+    }
+
+  }
